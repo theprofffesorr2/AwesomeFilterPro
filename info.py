@@ -71,6 +71,6 @@ if AUTO_DELETE == "True":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = "clicksfly.com"
-SHORTNER_API = "adc62f3afa0c54b05ed456508eb7fe2e4857c268"
+SHORTNER_SITE = "droplink.co"
+SHORTNER_API = "4b0c33301691b98409eda1f88ab4bef9676fa4de"
 
