@@ -66,11 +66,11 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://github.com/theprofffesorr2/AwesomeFilterPro')
 
 AUTO_DELETE_SECONDS = int(environ.get('AUTO_DELETE_SECONDS', 300))
-AUTO_DELETE = environ.get('AUTO_DELETE', False)
-if AUTO_DELETE == "True":
+AUTO_DELETE = environ.get('AUTO_DELETE', True)
+if AUTO_DELETE == "False":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = "droplink.co"
-SHORTNER_API = "4b0c33301691b98409eda1f88ab4bef9676fa4de"
+SHORTNER_SITE = "shrinkme.io"
+SHORTNER_API = "85314f55ed261e4cd4a24e5d219056f18a1fb1db"
 
