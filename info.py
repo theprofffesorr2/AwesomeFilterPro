@@ -71,6 +71,6 @@ if AUTO_DELETE == "False":
     AUTO_DELETE = True
 
 #Sample
-SHORTNER_SITE = "shrinkme.io"
-SHORTNER_API = "85314f55ed261e4cd4a24e5d219056f18a1fb1db"
+SHORTNER_SITE = "shorturllink.in"
+SHORTNER_API = "44d54b75f2dc4bd329c608679cd6396ef5ca08d7"
 
